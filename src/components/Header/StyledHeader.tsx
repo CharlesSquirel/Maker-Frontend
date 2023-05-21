@@ -14,9 +14,7 @@ export const StyledHeader = styled.header`
   flex-direction: column;
   gap: 114px;
   @media (max-width: ${({ theme }) => theme.mobile.maxWidth}) {
-    background: url(${bgMobile}) no-repeat;
-    background-position: 0 140px;
-    background-size: 100% auto;
+    background: url(${bgMobile}) 0 140px / 100% auto no-repeat;
   }
 `;
 export const LogoContainer = styled.div`
