@@ -10,7 +10,9 @@ function App() {
     <ThemeProvider theme={theme}>
       <GlobalStyle />
       <Header />
-      <Benefits />
+      <main>
+        <Benefits />
+      </main>
     </ThemeProvider>
   );
 }

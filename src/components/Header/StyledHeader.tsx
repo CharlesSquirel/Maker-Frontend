@@ -1,9 +1,9 @@
 import styled from "styled-components";
+import { MediaProps } from "../GlobalStyles/theme";
 import bgCenter from "../../assets/bg-hero-squiggle.svg";
 import bgLeft from "../../assets/illustration-hero-left.svg";
 import bgRight from "../../assets/illustration-hero-right.svg";
 import bgMobile from "../../assets/illustration-hero-mobile.png";
-import { MediaProps } from "../GlobalStyles/theme";
 
 interface Props {
   theme: MediaProps;
