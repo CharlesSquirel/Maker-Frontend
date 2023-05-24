@@ -21,7 +21,7 @@ export const GlobalStyle = createGlobalStyle`
 }
 body {
     font-size: 15px;
-    font-weight: 500;
+    font-weight: var(--regular);
     background: var(--dark-blue);
     color: var(--white);
 }
@@ -43,11 +43,11 @@ button {
     font-size: inherit;
     font-weight: inherit;
 }
-img {
+/* img {
     width: 100%;
     height: 100%;
     object-fit: contain;
-}
+} */
 p {
     color: #777F98;
 }
