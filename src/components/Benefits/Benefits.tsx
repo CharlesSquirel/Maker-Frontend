@@ -14,6 +14,26 @@ const StyledBenefits = styled.section`
   justify-content: space-between;
   gap: 30px;
   padding: 209px 165px 0 165px;
+  > div:nth-child(even) {
+    margin-top: 50px;
+  }
+  @media (min-width: ${({ theme }) => theme.tablet.minWidth}) and (max-width: ${({ theme }) => theme.tablet.maxWidth}) {
+    flex-direction: column;
+    align-items: center;
+    padding: 109px 0 0 0;
+    > div:nth-child(even) {
+      margin-top: 0;
+      margin-right: 90px;
+    }
+  }
+  @media (max-width: ${({ theme }) => theme.mobile.maxWidth}) {
+    flex-direction: column;
+    align-items: center;
+    padding: 150px 0 0 0;
+    > div:nth-child(even) {
+      margin: 0;
+    }
+  }
 `;
 
 const Benefits: React.FC = () => {

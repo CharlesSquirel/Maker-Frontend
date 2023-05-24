@@ -1,5 +1,7 @@
 import passionImg from "../../assets/illustration-passions.svg";
 import financialImg from "../../assets/illustration-financial-freedom.svg";
+import lifestyleImg from "../../assets/illustration-lifestyle.svg";
+import workImg from "../../assets/illustration-work-anywhere.svg";
 
 interface SingleBenefitProps {
   title: string;
@@ -23,11 +25,11 @@ export const befenitsContent: BenefitsConentProps = [
   {
     title: "Choose your lifestyle",
     description: "Own your daily schedule. Fancy a lie-in? Go for it! Take charge of your week.",
-    img: "../../assets/illustration-lifestyle.svg",
+    img: lifestyleImg,
   },
   {
     title: "Work from anywhere",
     description: "Selling online means not being pinned down. Want to work AND travel? Go for it!",
-    img: "../../assets/illustration-work-anywhere.svg",
+    img: workImg,
   },
 ];
