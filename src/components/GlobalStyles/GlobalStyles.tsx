@@ -51,5 +51,13 @@ button {
 p {
     color: #777F98;
 }
+ul {
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+}
+li {
+    list-style-type: none;
+}
 
 `;

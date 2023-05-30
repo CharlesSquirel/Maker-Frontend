@@ -40,8 +40,8 @@ const Benefits: React.FC = () => {
   return (
     <StyledBenefits>
       {befenitsContent.map(
-        ({ title, description, img }: SingleBenefitProps): React.ReactNode => (
-          <SingleBenefit title={title} description={description} img={img} />
+        ({ title, description, img }: SingleBenefitProps, index): React.ReactNode => (
+          <SingleBenefit title={title} description={description} img={img} key={index} />
         )
       )}
     </StyledBenefits>
